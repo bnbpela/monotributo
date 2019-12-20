@@ -1,0 +1,45 @@
+{
+  "name": "monotributo",
+  "version": "1.0.0",
+  "description": "Monotributo API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maticapuano/monotributo-api.git"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "mongodb",
+    "rest",
+    "server",
+    "afip"
+  ],
+  "author": "Matias Capuano <maticapuano97@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maticapuano/monotributo-api/issues"
+  },
+  "homepage": "https://github.com/maticapuano/monotributo-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-react": "^7.17.0",
+    "prettier": "^1.19.1"
+  }
+}
